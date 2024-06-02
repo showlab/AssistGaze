@@ -6,7 +6,7 @@ This is the official repository which provides a baseline model for our proposed
 
 Model Architecture (see [[Paper]](https://arxiv.org/abs/2203.04203) for details):
 
-![arch](https://github.com/showlab/AssistGaze/blob/main/Architecture.pdf)
+![arch](https://github.com/showlab/AssistGaze/blob/main/Architecture.png)
 
 
 ## Install
