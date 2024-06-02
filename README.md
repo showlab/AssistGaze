@@ -26,16 +26,14 @@ The released dataset is under this repository
 
 Before starting, you should encode the instructional videos, scripts, QAs.
 
-## Training 
+## Training & Evaluation
 
-Select the config file and simply train, e.g.,
+Just run the code with single GPU. The code will automatically process training and evalutaion process.
 
 ```
-CUDA_VISIBLE_DEVICES=0 python train.py
+python train.py
 ```
-
-## Evaluation
 
 ## Contact
 
-Feel free to contact us if you have any problems: chenan.song@u.nus.edu, or leave an issue in this repo.
+Feel free to contact us if you have any problems: e0559797@u.nus.edu, or leave an issue in this repo.
