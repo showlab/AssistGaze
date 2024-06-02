@@ -1,4 +1,4 @@
-[EMNLP23 Poster] # GazeVQA 
+# [EMNLP23 Poster]GazeVQA 
 
 This is the official repository which provides a baseline model for our proposed task: GazeVQA: A Video Question Answering Dataset for Multiview Eye-Gaze Task-Oriented Collaborations.
 
