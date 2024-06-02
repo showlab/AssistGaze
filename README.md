@@ -16,7 +16,7 @@ conda install pytorch torchvision torchtext cudatoolkit=11.3 -c pytorch
 ```
 (2) PyTorch Lightning. See https://www.pytorchlightning.ai/ for instruction. For example,
 ```
-pip install pytorch-lightning
+python -m pip install lightning
 ```
 
 ## Data
