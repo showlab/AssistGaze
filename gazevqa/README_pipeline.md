@@ -6,7 +6,7 @@ Minimal recipe for turning raw videos/SAM crops into train/test instances. All c
 
 ```
 python -m gazevqa.pipelines.build_video_features \
-  --raw-root SAM/SAMv2 \
+  --raw-root videos \
   --output-dir video_features_pt \
   --views firstview firstviewraw secondview thirdview \
   --device cuda:0
