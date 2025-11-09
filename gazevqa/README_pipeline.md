@@ -33,7 +33,7 @@ python -m gazevqa.pipelines.feature_combiner \
   --clip-model ViT-B/32 \
   --device cuda:0
 ```
-Writes `QALIST2106/Sxxx/Sxxx.pt` where each row contains tokenized questions/answers plus the aligned video & image tensors and their label columns.
+Writes `QALIST_Data/Sxxx/Sxxx.pt` where each row contains tokenized questions/answers plus the aligned video & image tensors and their label columns.
 
 ## 4. Expand & split instances
 
