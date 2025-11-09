@@ -1,7 +1,7 @@
 # Gazevqa Feature Pipeline
 
 Minimal recipe for turning ELAN-labelled raw videos + SAM crops into train/test instances. Pipeline order:
-1. Use `gazevqa_new/newvideocrop0505.py` to cut single-step clips (e.g., `step01.mp4`) for every view.
+1. Use `gazevqa/video_crop.py` to cut single-step clips (e.g., `step01.mp4`) for every view.
 2. Run the preprocessing commands below to build features and QA instances.
 
 All commands run from repo root in an environment with `torch`, `clip`, `decord`, `pillow`, `pandas`, `numpy`.
@@ -24,7 +24,7 @@ ELAN/
 Run the cutter (requires ffmpeg with h264 support):
 
 ```
-python gazevqa_new/newvideocrop0505.py \
+python gazevqa/video_crop.py \
   --elan-root /path/to/ELAN \
   --dataset-root /path/to/raw_videos \
   --output-root /path/to/step_clips
