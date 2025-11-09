@@ -4,9 +4,9 @@ This is the official repository which provides a baseline model for our proposed
 
 [[Paper]](https://aclanthology.org/2023.emnlp-main.648/)
 
-Model Architecture (see [[Paper]](https://arxiv.org/abs/2203.04203) for details):
+Model Architecture (see [[Paper]](https://aclanthology.org/2023.emnlp-main.648) for details):
 
-![arch](https://github.com/showlab/AssistGaze/blob/main/architecture.png)
+![arch]()
 
 
 ## Install
